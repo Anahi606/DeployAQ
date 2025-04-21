@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Gestión y Filtrado de Ventas con Supabase + React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación sencilla desarrollada con React y Supabase que permite visualizar una tabla de usuarios con sus productos vendidos, fechas de venta y cuotas asociadas. Incluye funcionalidad para filtrar por rango de fechas y calcular el total de cuotas por usuario.
 
-## Available Scripts
+## Descripción del Proyecto
 
-In the project directory, you can run:
+Este proyecto tiene como objetivo implementar funcionalidades básicas de lectura, filtrado y cálculo de totales desde una interfaz amigable.
+  
 
-### `npm start`
+## Tabla de Contenidos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Instalación](#instalación)
+- [Uso del Proyecto](#uso-del-proyecto)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Características](#características)
+- [Créditos](#créditos)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Sigue los pasos a continuación para ejecutar el proyecto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona el repositorio:
+   git clone https://github.com/Anahi606/DeployAQ
+   O descargalo manualmente como zip y descomprimelo.
+2. Navega a la carpeta del proyecto:
+   cd DeployAQ
+4. Instala las dependencias:
+   npm
+5. Solicita las variables de entorno a la autora del proyecto, es decir el archivo .env que deberas poner en la carpeta root del proyecto
+   
+   ![image](https://github.com/user-attachments/assets/4cbd5079-1189-4d44-b73d-1a478b9a0c23)
+7. Inicia la aplicación:
+   npm start
+   
 
-### `npm run build`
+## Uso del Proyecto
+Una vez iniciado el proyecto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Selecciona una fecha de inicio y una fecha de fin desde los campos de fecha.
+- Haz clic en el botón "Filter".
+- Se mostrará una tabla con los usuarios que tienen ventas dentro del rango seleccionado.
+- También se mostrará una tabla resumen con el total de cuotas agrupadas por nombre.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estructura del Proyecto
+El proyecto está organizado de la siguiente manera:
 
-### `npm run eject`
+![image](https://github.com/user-attachments/assets/b081965a-5e0e-4f47-8968-2225dca93f76)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Características
+- Consulta de datos desde Supabase
+- Filtro de resultados por rango de fechas
+- Cálculo del total de cuotas por usuario
+- Interfaz limpia y sencilla
+- Desarrollo en React utilizando hooks (`useState`, `useEffect`)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Créditos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/martincor17/MiniCoreMC.git
+https://main--eclectic-tulumba-5d3a7d.netlify.app/
+https://legacy.reactjs.org/docs/getting-started.html
